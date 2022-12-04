@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Dashboard</title>
 </head>
 
 <body>
     <header>Weather Dashboard</header>
-    <form action="/form/submit" method="GET"> 
-        <input type="text" name="text" class="search" placeholder="Search city here!">
-        <input type="submit" name="submit" class="submit" value="Search">
+    <form id="search-bar" action="/form/submit" method="GET"> 
+        <input id="search-city" type="text" name="text" class="search" placeholder="Search city here!">
+        <button type="submit" name="submit" class="submit" value="Search">Search</button>
     </form>
+    <div id="forecast">
+
+    </div>
+    <div id="5-day-forecast">
+
+    </div>    
+    <script src="./assets/javascript/script.js"></script>
 </body>
 
 </html>
