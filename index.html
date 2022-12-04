@@ -11,16 +11,22 @@
 
 <body>
     <header>Weather Dashboard</header>
-    <form id="search-bar" action="/form/submit" method="GET"> 
-        <input id="search-city" type="text" name="text" class="search" placeholder="Search city here!">
-        <button type="submit" name="submit" class="submit" value="Search">Search</button>
+    <form id="search-bar">
+        <input id="search-city" type="text" placeholder="Search city here!">
+        <button class="search-button">Search</button>
     </form>
     <div id="forecast">
 
     </div>
-    <div id="5-day-forecast">
+    <div id="five-day-forecast">
 
-    </div>    
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="./assets/javascript/script.js"></script>
 </body>
 
