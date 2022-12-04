@@ -1,0 +1,7 @@
+header {
+    background-image: linear-gradient(to right, blue,purple);
+    color: white;
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+}
