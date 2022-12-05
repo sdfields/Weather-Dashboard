@@ -1,7 +1,39 @@
 header {
-    background-image: linear-gradient(to right, blue,purple);
+    background-image: linear-gradient(to right, rgb(102, 102, 200), rgb(21, 9, 78));
     color: white;
     display: flex;
     font-size: 36px;
+    font-style: bold;
     justify-content: center;
+    padding: 3px;
+}
+
+h1 {
+    font-size: 32px;
+    font-style: bold;
+}
+
+#search-bar {
+    padding: 3px;
+}
+
+#search-city {
+    font-size: 18px;
+}
+
+.search-button {
+    font-size: 18px;
+}
+
+#forecast {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#five-day-forecast {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
