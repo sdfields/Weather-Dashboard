@@ -11,9 +11,10 @@ Type a city in the search bar to see the weather and forecast for the next 5 day
 
 # Links
 GitHub: https://github.com/sdfields/Weather-Dashboard
-URL: 
+URL: https://sdfields.github.io/Weather-Dashboard/
 
 # License
 MIT License
 
 # Screenshot
+!["Weather-Dashboard"](./images/Weather-Dashboard.png)

@@ -68,7 +68,6 @@ function getForecast(latitude, longitude) {
             function (response) {
                 if (response.ok) {
                     return response.json()
-
                 }
             }
         ).then(

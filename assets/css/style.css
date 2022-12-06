@@ -29,7 +29,6 @@ h1 {
     border: 5px solid black;
     display: flex;
     flex-direction: column;
-    height: 15%;
 }
 
 #five-day-forecast {
